@@ -11,9 +11,9 @@ export function Hero() {
       <div className="grid-bg" />
 
       {/* Gradient orbs */}
-      <div className="hero-glow -top-40 -left-40 h-[500px] w-[500px] bg-blue-500" />
-      <div className="hero-glow -right-20 top-1/3 h-[400px] w-[400px] bg-violet-500" />
-      <div className="hero-glow bottom-0 left-1/3 h-[300px] w-[300px] bg-cyan-500 opacity-[0.06]" />
+      <div className="hero-glow -top-40 -left-40 h-[300px] w-[300px] sm:h-[500px] sm:w-[500px] bg-blue-500" />
+      <div className="hero-glow -right-20 top-1/3 h-[250px] w-[250px] sm:h-[400px] sm:w-[400px] bg-violet-500" />
+      <div className="hero-glow bottom-0 left-1/3 h-[200px] w-[200px] sm:h-[300px] sm:w-[300px] bg-cyan-500 opacity-[0.06]" />
 
       <div className="relative z-10 mx-auto w-full max-w-[var(--max-width-content)] px-6 pt-28 pb-20">
         {/* Availability badge */}
@@ -110,7 +110,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden sm:block"
       >
         <div className="scroll-indicator flex flex-col items-center gap-1 text-text-muted">
           <span className="text-[10px] uppercase tracking-widest">Scroll</span>
