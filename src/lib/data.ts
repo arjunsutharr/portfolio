@@ -57,7 +57,29 @@ export const projects = [
       "Redis",
       "Docker",
     ],
-    link: "https://github.com/arjunsutharr/whatsapp-ai-agent-case-study",
+    link: "https://github.com/arjunsutharr/whatsapp-ai-agent",
+  },
+  {
+    title: "Telemedicine",
+    badge: "ML · ICMR Research",
+    description:
+      "ML-powered diagnostic API that predicts diagnosis, treatment, and medication from patient vitals and symptoms. Built and trained using TabPFN 2.5 on 4,000+ patient records.",
+    challenges: [
+      "Two-stage classification for 50+ disease categories",
+      "Live model retraining from new patient data uploads",
+      "Nearest-neighbour lookup for high-cardinality outputs",
+    ],
+    impact:
+      "Trained ML model serving real-time predictions via REST API with continuous learning from new data",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "TabPFN 2.5",
+      "scikit-learn",
+      "Pandas",
+      "PyTorch",
+    ],
+    link: "https://github.com/arjunsutharr/telemedicine",
   },
   {
     title: "Aurae Cosmos",
